@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Seunome - Modern Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">#SN</div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="hero container fade-in">
+            <div class="hero-text">
+                <h1>#Seunome</h1>
+                <p>Eu sou um desenvolvedor full-stack apaixonado, especializado em criar aplicações web bonitas e funcionais.</p>
+                <a href="#contact" class="cta-button">Entre em contato</a>
+            </div>
+            <div class="hero-image">
+                <img src="/dude.png" alt="#Seunome" class="profile-img">
+            </div>
+        </section>
+
+        <section id="skills" class="container fade-in">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">&#128187;</div>
+                    <h3>Front-end</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">&#128295;</div>
+                    <h3>Back-end</h3>
+                    <p>Node.js, Express, Python</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">&#128202;</div>
+                    <h3>Bancos de dados</h3>
+                    <p>MongoDB, PostgreSQL</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">&#128736;</div>
+                    <h3>Tools</h3>
+                    <p>Git, Docker, AWS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container fade-in">
+            <h2>Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3 class="project-title">Site de ecommerce</h3>
+                        <p>Plataforma de comércio eletrônico totalmente responsiva com autenticação de usuário e integração de pagamento.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3 class="project-title">App de Gerenciamento de Tarefas</h3>
+                        <p>Uma aplicação de produtividade para gerenciar tarefas e projetos com atualizações em tempo real e recursos de colaboração em equipe.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">Material-UI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3 class="project-title">Dashboard clima</h3>
+                        <p>Aplicação de tempo interativa que exibe dados meteorológicos atuais e previstos usando uma API terceirizada.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">API</span>
+                            <span class="project-tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact fade-in">
+            <div class="container">
+                <h2>Contate-me!</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Mandar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul class="social-links">
+                <li><a href="#" aria-label="GitHub">&#128187;</a></li>
+                <li><a href="#" aria-label="LinkedIn">&#128101;</a></li>
+                <li><a href="#" aria-label="Twitter">&#128038;</a></li>
+            </ul>
+            <p>&copy; 2023 #Seunome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
