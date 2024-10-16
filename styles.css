@@ -111,10 +111,7 @@ section {
     transition: var(--transicao);
 }
 /* style das logo da redes sociais */
-.icon {
-    display: inline-flex;
-    align-items: center;
-  }
+
 .contact-btn {
     margin-right: 15px; /* Espaço entre o botão e os ícones */
   }
