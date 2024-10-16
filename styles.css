@@ -111,7 +111,7 @@ section {
     transition: var(--transicao);
 }
 /* style das logo da redes sociais */
-.social-links {
+.icon {
     display: inline-flex;
     align-items: center;
   }
