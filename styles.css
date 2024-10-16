@@ -100,7 +100,7 @@ section {
     font-size: 1.23rem;
     margin-bottom: 2rem;
 }
-
+/* cor do botão do sobre e contatos */
 .botao-de-contato {
     display: inline-block;
     background-color: var(--cor-primaria);
@@ -110,6 +110,20 @@ section {
     text-decoration: none;
     transition: var(--transicao);
 }
+/* style das logo da redes sociais */
+.social-links {
+    display: inline-flex;
+    align-items: center;
+  }
+.contact-btn {
+    margin-right: 15px; /* Espaço entre o botão e os ícones */
+  }
+  
+  .icon {
+    margin-left: 10px; /* Espaço entre os ícones */
+    width: 30px; /* Ajuste o tamanho se necessário */
+    height: auto;
+  }
 
 .botao-de-contato:hover {
     background-color: var(--cor-secundaria);
@@ -138,6 +152,7 @@ section {
     background-color: var(--cor-de-fundo-card);
     padding: 0rem;
     border-radius: 10px;
+    padding: 1.5rem;
     text-align: center;
     box-shadow: 0 4px 6px  rgba(0,0,0,0.1);
     transition: var(--transicao);
